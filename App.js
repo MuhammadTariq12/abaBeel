@@ -6,6 +6,8 @@ const App = () => {
 const countNumber = () => {
   setCount(count + 1);
 }
+
+
   return (
     <View style={{flex:1, justifyContent:'center',alignItems:'center' }}>
       <Text style={{alignContent:"center", justifyContent:'center', fontSize: 90, color:'blue'}}>
